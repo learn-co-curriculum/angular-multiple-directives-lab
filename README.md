@@ -26,3 +26,8 @@ We need to link the form inputs up using `ng-model` - attach the name input to t
 We should use `ng-submit` on the form to handle submit events (when the user presses enter or clicks the button) - this should call a function that pushes a new contact into our array, using the `name` and `phoneNumber` values in our controller.
 
 We also need to test that deleting works properly. Grab one of the items in the list and click on the link inside of it. Check that the list count is now 3.
+
+
+**Note:** You may need to do `npm install express` to get the tests running on this lab.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-multiple-directives-lab'>Angular Multiple Directives Lab</a> on Learn.co and start learning to code for free.</p>
